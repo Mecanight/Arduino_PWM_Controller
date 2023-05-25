@@ -3,7 +3,7 @@ PWM é a sigla para "Pulse Width Modulation", ou Modulação por Largura de Puls
 
 # Componentes necessários
 
-**Utilizando a ferramenta Proteus:**
+**Montagem na ferramenta Proteus**
 
 ⚪ **Microcontrolador:** Arduino Nano;
 
