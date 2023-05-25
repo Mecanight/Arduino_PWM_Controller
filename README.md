@@ -70,7 +70,3 @@ void loop()
 # Funcionamento do projeto
 
 O projeto tem como objetivo utilizar o circuito com os componentes citados para controlar a velocidade um motor elétrico, na ferramenta Proteus. É possível fazer esse controle a cada clique de um botão. Por exemplo, o sinal para o motor inicia como "0" (desligado), após cada clique o sinal é acrescido do valor 63, que é aproximadamente 25% de 255. Nas sequencias de clique o sinal para o motor muda para 50%, 75% e 100%. Quando o valor, da variável que controla o sinal, passa de 255 (neste caso 100%) a variável retorna ao valor "0", iniciando a sequência novamente. Em resumo, o objetivo deste projeto/circuito é ter a possibilidade de controlar a velocidade de um motor elétrico de forma ágil, o uso do PWM contribui para a rápida e efetiva implementação do projeto.
-
-<div align=center>
-<img height="50em" src="./assets/img/unimater.png">
-</div>
