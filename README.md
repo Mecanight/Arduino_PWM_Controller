@@ -5,15 +5,15 @@ PWM é a sigla para "Pulse Width Modulation", ou Modulação por Largura de Puls
 
 **Montagem na ferramenta Proteus**
 
-⚪ **Microcontrolador:** Arduino Nano;
+⚪ **Microcontrolador Arduino Nano:** utilizado para hospedar o código de programação em C++, que fará o controle dos sinais de entrada e saída das portas existentes neste mesmo controlador;
 
 ⚪ **Ponte H:** modula os sinais recebidos do Arduino e energia recebida de uma fonte (bateria por exemplo) e transmite aos componentes carga do sistema (motor e led por exemplo);
 
-⚪ **Botão:** utilizado para alterar os níveis de velocidade do motor elétrico;
+⚪ **Botão:** utilizado para alterar, através de variável em código, os níveis de velocidade do motor elétrico;
 
-⚪ **Resistor:** utilizado para controlar a corrente elétrica;
+⚪ **Resistor:** utilizado para limitar a corrente elétrica;
 
-⚪ **Motor elétrico:** converte energia elétrica em energia mecânica;
+⚪ **Motor elétrico:** converte energia elétrica em energia mecânica (giro do motor);
 
 ⚪ **Voltímetro:** utilizado para visualizar a tensão elétrica do sistema;
 
