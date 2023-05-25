@@ -1,5 +1,5 @@
 # Introdução ao PWM
-PWM é a sigla para "Pulse Width Modulation", ou Modulação por Largura de Pulso. É uma técnica muito utilizada na eletrônica para controlar a potência de um sinal elétrico. Basicamente, PWM é uma forma de variar a largura de um pulso elétrico, mantendo a sua frequência constante. Essa variação na largura do pulso faz com que a média da tensão aplicada seja alterada, o que resulta em um controle de potência que pode ser utilizado em um motor elétrico por exemplo, o qual foi utilizado no projeto.
+PWM é a sigla para "Pulse Width Modulation", ou Modulação por Largura de Pulso. É uma técnica muito utilizada na eletrônica para controlar a potência de um sinal elétrico. É uma forma de variar a largura de um pulso elétrico, mantendo a sua frequência constante. Essa variação na largura do pulso faz com que a média da tensão aplicada seja alterada, o que resulta em um controle de potência que pode ser utilizado em um motor elétrico por exemplo, o qual foi utilizado no projeto abaixo.
 
 # Componentes necessários
 
@@ -17,14 +17,13 @@ PWM é a sigla para "Pulse Width Modulation", ou Modulação por Largura de Puls
 
 ⚪ **Voltímetro:** utilizado para visualizar a tensão da corrente elétrica;
 
-⚪ **Osciloscópio:** utilizado para medir a amplitude da onda;
+⚪ **Osciloscópio:** utilizado para medir os  da onda;
 
-⚪ **Fonte 5V:** fornecer energia para alimentar o sistema;
+⚪ **Fonte 5V:** fornece energia para alimentar o sistema;
 
 # Esquemático
 
 <div align=center>
-<a href="https://github.com/MarcoAndradee">
 <img height="500em" src="./assets/img/esquematico.png">
 </div>
 
@@ -73,6 +72,5 @@ void loop()
 O projeto tem como objetivo utilizar o circuito com os componentes citados para controlar a velocidade um motor elétrico, na ferramenta Proteus, aonde utilizando um "Botão" é possível fazer esse controle a cada clique no botão, como por exemplo, o motor inicia no estado "0" que significa desligado, após o primeiro clique o motor vai para o estado "1" que significa ligado, porém em uma velocidade de 25%|100%, após outro clique a velocidade aumenta para 50%|100%, após outro clique a velocidade sobe para 75%|100% e após outro clique o motor fica com a velocidade total de 100%. Se for clicado mais uma vez o botão, volta o "loop" do código do circuito tornando o estado do motor "0" novamente e desligando-o, sendo possível repetir o processo quantas vezes for necessário. Em resumo, o objetivo do circuito é ter a possibilidade de controlar a velocidade de um motor elétrico em diferentes velocidades, podendo utilizar do mínimo até a máxima potência do mesmo.
 
 <div align=center>
-<a href="https://github.com/MarcoAndradee">
 <img height="50em" src="./assets/img/unimater.png">
 </div>
